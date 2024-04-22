@@ -18,7 +18,7 @@ extension Symbol {
             Symbol(name: "keyboard"),
             Symbol(name: "hifispeaker.fill"),
             Symbol(name: "printer.fill"),
-            Symbol(name: "tx.fill"),
+            Symbol(name: "tv.fill"),
             Symbol(name: "desktopcomputer"),
             Symbol(name: "headphones"),
             Symbol(name: "tv.music.note"),

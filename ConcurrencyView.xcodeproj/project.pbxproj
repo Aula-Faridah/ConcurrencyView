@@ -12,6 +12,7 @@
 		52C14A6E2BD5F89900C03634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C14A6D2BD5F89900C03634 /* Assets.xcassets */; };
 		52C14A712BD5F89900C03634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C14A702BD5F89900C03634 /* Preview Assets.xcassets */; };
 		52C14A7C2BD5F9A500C03634 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C14A7B2BD5F9A500C03634 /* Symbol.swift */; };
+		52C14A7F2BD5FC6400C03634 /* SymbolVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C14A7E2BD5FC6300C03634 /* SymbolVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		52C14A6D2BD5F89900C03634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C14A702BD5F89900C03634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52C14A7B2BD5F9A500C03634 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		52C14A7E2BD5FC6300C03634 /* SymbolVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		52C14A682BD5F89800C03634 /* ConcurrencyView */ = {
 			isa = PBXGroup;
 			children = (
+				52C14A7D2BD5FC4D00C03634 /* ViewModel */,
 				52C14A7A2BD5F99700C03634 /* Model */,
 				52C14A772BD5F8F000C03634 /* App */,
 				52C14A782BD5F8FF00C03634 /* View */,
@@ -74,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				52C14A692BD5F89800C03634 /* ConcurrencyViewApp.swift */,
-				52C14A7B2BD5F9A500C03634 /* Symbol.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -98,8 +100,17 @@
 		52C14A7A2BD5F99700C03634 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				52C14A7B2BD5F9A500C03634 /* Symbol.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		52C14A7D2BD5FC4D00C03634 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52C14A7E2BD5FC6300C03634 /* SymbolVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			files = (
 				52C14A6C2BD5F89800C03634 /* ContentView.swift in Sources */,
 				52C14A6A2BD5F89800C03634 /* ConcurrencyViewApp.swift in Sources */,
+				52C14A7F2BD5FC6400C03634 /* SymbolVM.swift in Sources */,
 				52C14A7C2BD5F9A500C03634 /* Symbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
